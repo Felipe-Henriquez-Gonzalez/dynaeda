@@ -28,4 +28,5 @@
         all: 
           - event.status == "OPEN"
       action:
-        run_playbook:
+        run_job_template:
+          name: test
