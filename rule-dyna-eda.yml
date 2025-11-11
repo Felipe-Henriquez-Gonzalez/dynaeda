@@ -8,7 +8,7 @@
 #        dt_api_token: "asjfsjkfjfjh"
        dt_api_tocken:"{{ _dynatoken }}"
         delay: 60 # Default is 60 seconds, i.e. the plugin polls problems every 60 seconds
-        proxy: "http://my-proxy:3128" # Proxy through which to access host. (default is none)
+      #  proxy: "http://my-proxy:3128" # Proxy through which to access host. (default is none)
 
   rules:
     - name: Problem payload Dynatrace for CPU issue
